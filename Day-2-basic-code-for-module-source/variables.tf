@@ -1,5 +1,5 @@
 variable "ami_id" {
-    description = "inserting ami value"
+    description = "ami-05b10e08d247fb927"
     type = string
     default = ""
   
@@ -13,6 +13,6 @@ variable "type" {
 
 variable "key" {
     type = string
-    default = ""
+    default = "ravii"
   
 }
