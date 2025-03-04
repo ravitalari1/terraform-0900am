@@ -1,5 +1,5 @@
 variable "ami_id" {
-    description = "ami-05b10e08d247fb927"
+    description = "ami-0d682f26195e9ec0f"
     type = string
     default = ""
   
@@ -7,13 +7,13 @@ variable "ami_id" {
 
 variable "type" {
     type = string
-    default = ""
+    default = "t2.micro"
   
 }
 
 variable "key" {
     type = string
-    default = "ravii"
+    default = "mumbai"
   
 }
 
